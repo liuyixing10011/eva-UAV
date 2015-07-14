@@ -108,7 +108,7 @@ Rectangle {
     Button {
         id: submitaddressButton
         anchors.horizontalCenter: parent.horizontalCenter
-        y: 600
+        y: 500
         width: 100
         text: "Submit"
         onClicked: {
@@ -118,7 +118,7 @@ Rectangle {
         }
 
     }
-//this button cannot be displayed
+
     Button {
         id: backButton3
         anchors.horizontalCenter: parent.horizontalCenter
@@ -132,4 +132,3 @@ Rectangle {
 
     }
 }
-

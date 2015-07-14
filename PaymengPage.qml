@@ -135,7 +135,7 @@ Rectangle {
     Button {
         id: submitpaymentinfoButton
         anchors.horizontalCenter: parent.horizontalCenter
-        y: 580
+        y: 450
         width: 180
         text: "Submit and Review Order"
         onClicked: {
@@ -149,7 +149,7 @@ Rectangle {
     Button {
         id: backButton2
         anchors.horizontalCenter: parent.horizontalCenter
-        y: 620
+        y: 600
         width: 180
         text: "Back"
         onClicked:{
@@ -158,4 +158,3 @@ Rectangle {
         }
     }
 }
-

@@ -373,7 +373,7 @@ Rectangle {
     Button {
         id: backButton1
         anchors.horizontalCenter: parent.horizontalCenter
-        y: 660
+        y: 560
         width: 150
         text: "Return to homepage"
         onClicked:{
@@ -398,4 +398,3 @@ Rectangle {
 
     }
 }
-
