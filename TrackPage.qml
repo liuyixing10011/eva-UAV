@@ -49,8 +49,10 @@ Rectangle {
         y: 700
         width: 150
         text: "Place another order"
-        onClicked:
-           page.state = ""
+        onClicked:{
+           track_page.visible = false
+           opening_page.visible = true
+        }
+
     }
 }
-
