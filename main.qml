@@ -9,7 +9,7 @@ ApplicationWindow {
     id: app_window
     title: qsTr("UAV Control App")
     width: 500
-    height: 800
+    height: 1000
     visible: true
 
     menuBar: MenuBar {

@@ -353,8 +353,8 @@ Rectangle {
     Rectangle {
         id: checkoutdenialrectangle
         anchors.horizontalCenter: parent.horizontalCenter
-        y: 620
-        width: 200
+        y: 750
+        width: 150
         height: 20
         color: "#D60000"
         radius: 5
@@ -373,7 +373,7 @@ Rectangle {
     Button {
         id: backButton1
         anchors.horizontalCenter: parent.horizontalCenter
-        y: 560
+        y: 600
         width: 150
         text: "Return to homepage"
         onClicked:{
@@ -386,7 +386,7 @@ Rectangle {
     Button {
         id: clearButton
         anchors.horizontalCenter: parent.horizontalCenter
-        y: 700
+        y: 900
         width: 150
         text: "Clear all entries"
         onClicked:

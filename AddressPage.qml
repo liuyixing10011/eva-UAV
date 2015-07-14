@@ -47,6 +47,7 @@ Rectangle {
 
     TextField {
         id: currentcustomercity
+        anchors.horizontalCenter: parent.horizontalCenter
         x: 75
         y: 300
         width: 350
@@ -56,6 +57,7 @@ Rectangle {
 
     TextField {
         id: currentcustomerstate
+        anchors.horizontalCenter: parent.horizontalCenter
         x: 75
         y: 370
         width: 180
@@ -108,7 +110,7 @@ Rectangle {
     Button {
         id: submitaddressButton
         anchors.horizontalCenter: parent.horizontalCenter
-        y: 500
+        y: 650
         width: 100
         text: "Submit"
         onClicked: {
@@ -122,7 +124,7 @@ Rectangle {
     Button {
         id: backButton3
         anchors.horizontalCenter: parent.horizontalCenter
-        y: 750
+        y: 800
         width: 100
         text: "Back"
         onClicked:{
